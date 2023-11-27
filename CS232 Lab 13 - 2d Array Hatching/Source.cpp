@@ -32,6 +32,7 @@ int main() {
 
 	cout << "Puzzle Contents: " << endl;
 	displayArray(puzzleArray);
+	cout << endl;
 
 	makeHatches(puzzleArray, crossHatch, userInput);
 
@@ -98,6 +99,7 @@ void crossRow(int crossArr[][SIZE], int rowPar) {
 	}
 
 }
+
 void crossColumn(int crossArr[][SIZE], int colPar) {
 	for (int row = 0; row < SIZE; row++)
 	{
